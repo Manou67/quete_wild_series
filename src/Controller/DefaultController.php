@@ -12,9 +12,10 @@ class DefaultController extends AbstractController
     /**
      * @Route("/", name="app_index")
      */
+
     public function index() :Response
     {
-        return $this->render('home.html.twig');
+        return $this->render('home/home.html.twig');
     }
 }
 
